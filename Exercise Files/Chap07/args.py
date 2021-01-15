@@ -3,6 +3,9 @@
 
 def main():
     kitten('meow', 'grrr', 'purr')
+    kitten()
+    x = ('tree', '3', 'three')
+    kitten(*x)
 
 def kitten(*args):
     if len(args):

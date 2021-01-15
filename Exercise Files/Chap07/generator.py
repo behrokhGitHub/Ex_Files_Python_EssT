@@ -8,6 +8,7 @@ def main():
 
 def inclusive_range(*args):
     numargs = len(args)
+    print('numargs: {}'.format(numargs))
     start = 0
     step = 1
     

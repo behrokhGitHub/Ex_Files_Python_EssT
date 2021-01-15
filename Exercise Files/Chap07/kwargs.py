@@ -3,6 +3,8 @@
 
 def main():
     kitten(Buffy = 'meow', Zilla = 'grr', Angel = 'rawr')
+    x = (Buffy = 'meow', Zilla = 'grr', Angel = 'rawr')
+    kitten(**x)
 
 def kitten(**kwargs):
     if len(kwargs):
