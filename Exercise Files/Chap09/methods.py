@@ -27,5 +27,7 @@ def main():
     a1 = Animal(type = 'duck', name = 'donald', sound = 'quack')
     print(a0)
     print(a1)
+    a0.sound('bark')
+    print(a0)
 
 if __name__ == '__main__': main()

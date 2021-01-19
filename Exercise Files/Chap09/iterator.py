@@ -31,7 +31,7 @@ class inclusive_range:
             return _r
 
 def main():
-    for n in inclusive_range(25):
+    for n in inclusive_range(5, 25, 5):
         print(n, end=' ')
     print()
 
