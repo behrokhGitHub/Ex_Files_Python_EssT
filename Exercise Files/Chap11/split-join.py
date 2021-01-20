@@ -2,4 +2,10 @@
 # Copyright 2009-2017 BHG http://bw.org/
 
 s = 'This is a long string with a bunch of words in it.'
+print(s.split('i'))
+
+l = s.split()
+print(' '.join(l))
+print(':'.join(l))
+print('--'.join(l))
 print(s)
